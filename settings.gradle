@@ -1,0 +1,1 @@
+include ':app', 'HelloAndroid', 'TipCalculatorV0', 'TipCalculatorV1', 'TipCalculatorV2', 'TipCalculatorV3', 'TipCalculatorV4'

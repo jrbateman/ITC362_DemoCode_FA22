@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bateman.tipcalculatorv0.MainActivity">
+
+  <TextView
+      android:id="@+id/label_bill"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:minWidth="120dp"
+      android:textSize="28sp"
+      android:text="@string/label_bill"/>
+
+  <EditText
+      android:id="@+id/amount_bill"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_toRightOf="@+id/label_bill"
+      android:layout_alignBottom="@+id/label_bill"
+      android:layout_alignParentRight="true"
+      android:textSize="28sp"
+      android:hint="@string/amount_bill_hint"
+      android:inputType="numberDecimal" />
+
+  <TextView
+      android:id="@+id/label_tip_percent"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/label_bill"
+      android:layout_alignLeft="@+id/label_bill"
+      android:layout_alignRight="@+id/label_bill"
+      android:textSize="28sp"
+      android:text="@string/label_tip_percent"/>
+
+  <EditText
+      android:id="@+id/amount_tip_percent"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_toRightOf="@+id/label_tip_percent"
+      android:layout_alignBottom="@+id/label_tip_percent"
+      android:layout_alignRight="@id/amount_bill"
+      android:textSize="28sp"
+      android:hint="@string/amount_tip_percent_hint"
+      android:inputType="number" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bateman.tipcalculatorv3.MainActivity">
+
+  <TextView
+      android:id="@+id/label_bill"
+      style="@style/LabelStyle"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="20dp"
+      android:minWidth="120dp"
+      android:text="@string/label_bill"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <EditText
+      android:id="@+id/amount_bill"
+      style="@style/InputStyle"
+      android:layout_marginStart="62dp"
+      android:layout_marginLeft="62dp"
+      android:layout_marginTop="20dp"
+      android:hint="@string/amount_bill_hint"
+      android:inputType="numberDecimal"
+      app:layout_constraintStart_toEndOf="@+id/label_bill"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/label_tip_percent"
+      style="@style/LabelStyle"
+      android:layout_marginTop="20dp"
+      android:text="@string/label_tip_percent"
+      app:layout_constraintLeft_toLeftOf="@+id/label_bill"
+      app:layout_constraintRight_toRightOf="@+id/label_bill"
+      app:layout_constraintTop_toBottomOf="@+id/label_bill" />
+
+  <EditText
+      android:id="@+id/amount_tip_percent"
+      style="@style/InputStyle"
+      android:layout_marginStart="68dp"
+      android:layout_marginLeft="68dp"
+      android:layout_marginTop="20dp"
+      android:hint="@string/amount_tip_percent_hint"
+      android:inputType="number"
+      app:layout_constraintStart_toEndOf="@+id/label_tip_percent"
+      app:layout_constraintTop_toBottomOf="@+id/amount_bill" />
+
+  <!-- red line -->
+  <View
+      android:id="@+id/red_line"
+      android:layout_width="match_parent"
+      android:layout_height="5dip"
+      android:layout_marginTop="20dp"
+      android:background="#FF00"
+      app:layout_constraintLeft_toLeftOf="@id/label_bill"
+      app:layout_constraintRight_toRightOf="@id/amount_bill"
+      app:layout_constraintTop_toBottomOf="@+id/label_tip_percent" />
+
+  <TextView
+      android:id="@+id/label_tip"
+      style="@style/LabelStyle"
+      android:layout_marginTop="20dp"
+      android:text="@string/label_tip"
+      app:layout_constraintLeft_toLeftOf="@+id/label_bill"
+      app:layout_constraintRight_toRightOf="@+id/label_bill"
+      app:layout_constraintTop_toBottomOf="@id/red_line" />
+
+  <TextView
+      android:id="@+id/amount_tip"
+      style="@style/OutputStyle"
+      android:layout_width="173dp"
+      android:layout_height="60dp"
+      android:layout_marginStart="40dp"
+      android:layout_marginLeft="40dp"
+      android:layout_marginTop="20dp"
+      app:layout_constraintStart_toEndOf="@+id/label_tip"
+      app:layout_constraintTop_toBottomOf="@+id/red_line" />
+
+  <TextView
+      android:id="@+id/label_total"
+      style="@style/LabelStyle"
+      android:layout_marginTop="20dp"
+      android:text="@string/label_total"
+      app:layout_constraintLeft_toLeftOf="@+id/label_bill"
+      app:layout_constraintRight_toRightOf="@+id/label_bill"
+      app:layout_constraintTop_toBottomOf="@id/label_tip" />
+
+  <TextView
+      android:id="@+id/amount_total"
+      style="@style/OutputStyle"
+      android:layout_width="184dp"
+      android:layout_height="58dp"
+      android:layout_marginStart="48dp"
+      android:layout_marginLeft="48dp"
+      android:layout_marginTop="24dp"
+      app:layout_constraintStart_toEndOf="@+id/label_total"
+      app:layout_constraintTop_toBottomOf="@+id/amount_tip" />
+
+  <Button
+      android:id="@+id/button"
+      style="@style/ButtonStyle"
+      android:layout_marginStart="131dp"
+      android:layout_marginLeft="131dp"
+      android:layout_marginTop="84dp"
+      android:layout_marginEnd="104dp"
+      android:layout_marginRight="104dp"
+      android:onClick="calculate"
+      android:text="@string/button_calculate"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/amount_total" />
+
+</android.support.constraint.ConstraintLayout>
