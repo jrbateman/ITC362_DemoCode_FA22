@@ -1,4 +1,4 @@
-# CIS362Fall19DemoCode
+# CIS362 Fall 2019 DemoCode
 CIS 362 Fall 2019 Demo Code
 
 The code in this repository is for the demonstration/lecture apps used in CIS362 - Mobile App Development.
