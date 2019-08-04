@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:paddingLeft="@dimen/activity_horizontal_margin"
+  android:paddingRight="@dimen/activity_horizontal_margin"
+  android:paddingTop="@dimen/activity_vertical_margin"
+  android:paddingBottom="@dimen/activity_vertical_margin">
+
+  <TextView
+    android:id="@+id/label_name"
+    android:layout_marginTop="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/label_name"/>
+
+  <EditText
+      android:id="@+id/input_name"
+      android:layout_width="265dp"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@+id/label_name"
+      android:layout_marginLeft="50dp"
+      android:layout_marginBottom="0dp"
+      android:layout_toRightOf="@+id/label_name"
+      android:orientation="horizontal" />
+
+  <TextView
+    android:id="@+id/label_price"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/label_name"
+    android:layout_marginTop="50dp"
+    android:text="@string/label_price" />
+
+  <EditText
+    android:id="@+id/input_price"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/label_price"
+    android:layout_alignLeft="@+id/input_name"
+    android:layout_alignParentRight="true"
+    android:layout_toRightOf="@+id/label_price"
+    android:inputType="numberDecimal" />
+
+  <Button
+    android:id="@+id/button_add"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/label_price"
+    android:layout_marginTop="50dp"
+    android:onClick="insert"
+    android:text="@string/button_add" />
+
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/button_add"
+    android:layout_marginTop="50dp"
+    android:onClick="goBack"
+    android:text="@string/button_back" />
+
+</RelativeLayout>

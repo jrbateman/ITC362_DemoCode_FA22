@@ -1,5 +1,8 @@
 package com.bateman.tictactoev3;
 
+//We want to improve Version 2
+// by showing the current state of the game at the bottom of the screen,
+
 import android.graphics.Color;
 import android.graphics.Point;
 import android.os.Bundle;

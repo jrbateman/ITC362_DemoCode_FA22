@@ -1,5 +1,10 @@
 package com.bateman.tictactoev1;
 
+//In Version 1, we add code to capture a click on any button, identify what button was clicked,
+// and we place an X inside the button that was clicked.
+// At that point, we are not concerned about playing the game or enforcing its rules.
+// We will do that in Version 2.
+
 import android.graphics.Point;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

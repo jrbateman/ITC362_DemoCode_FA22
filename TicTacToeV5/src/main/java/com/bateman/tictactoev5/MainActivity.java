@@ -1,5 +1,10 @@
 package com.bateman.tictactoev5;
 
+//In Version 5, we split the View and the Controller.
+// In this way, we make the View reusable.
+// The Controller is the middleman between the View and the Model,
+// so we keep the View independent from the Model.
+
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.Point;

@@ -1,5 +1,11 @@
 package com.bateman.tictactoev4;
 
+//In Version 4, we enable the player to play another game after the current one is over.
+// When the game is over, we want a dialog box asking the user if he or she wants to play again to pop up.
+// If the answer is yes, he or she can play again.
+// If the answer is no,
+// we exit the activity (in this case the app since there is only one activity).
+
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.Point;

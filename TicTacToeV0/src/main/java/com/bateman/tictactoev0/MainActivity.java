@@ -1,5 +1,12 @@
 package com.bateman.tictactoev0;
 
+//In Version 0 of our TicTacToe app, we use the empty activity template and only setup the GUI.
+// We use a 3 × 3 two-dimensional array of Buttons, in order to mirror the 3 × 3 two-dimensional array game in our Model
+// the TicTacToe class.
+// In order to keep things simple, we first place the View inside the Activity class,
+// so the View and the Controller are in the same class. Later in the chapter,
+// we separate the View from the Controller and place them in two different classes.
+
 import android.graphics.Point;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

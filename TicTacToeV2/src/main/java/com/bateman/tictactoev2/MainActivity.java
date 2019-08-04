@@ -1,5 +1,16 @@
 package com.bateman.tictactoev2;
 
+//We are assuming that two users will be playing on the same device against each other.
+// Enabling game play does not just mean placing an X or an O on the grid of buttons at each turn.
+// It also means enforcing the rules, such as not allowing someone to play twice at the same position on the grid,
+// checking if one player won, indicating if the game is over.
+// Our Model, the TicTacToe class, provides that functionality.
+// In order to enable play, we add a TicTacToe object as an instance variable of our Activity class,
+// and we call the methods of the TicTacToe class as and when needed.
+// Play is happening inside the update method so we have to modify it.
+// We also need to check if the game is over and, in that case, disable all the buttons.
+
+
 import android.graphics.Point;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
