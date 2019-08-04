@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Shipping App</string>
+    <string name="AppLabel">Shipping Calculator</string>
+    <string name="zeroDec">$0.00</string>
+</resources>

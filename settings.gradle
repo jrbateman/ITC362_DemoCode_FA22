@@ -1,2 +1,2 @@
 include ':app', 'HelloAndroid', 'TipCalculatorV0', 'TipCalculatorV1', 'TipCalculatorV2', 'TipCalculatorV3', 'TipCalculatorV4', 'TicTacToeV0', 'TicTacToeV1', 'TicTacToeV2', 'TicTacToeV3', 'TicTacToeV4', 'TicTacToeV5',
-        'CandyStoreV0', 'CandyStoreV1', 'CandyStoreV2', 'CandyStoreV3', 'CandyStoreV4', 'CandyStoreV5', 'MortgageV0', 'MortgageV1', 'MortgageV2', 'MortgageV3', 'MortgageV4', ':MyFirstApp'
+        'CandyStoreV0', 'CandyStoreV1', 'CandyStoreV2', 'CandyStoreV3', 'CandyStoreV4', 'CandyStoreV5', 'MortgageV0', 'MortgageV1', 'MortgageV2', 'MortgageV3', 'MortgageV4', ':MyFirstApp', ':ShippingApp'
