@@ -8,11 +8,11 @@
 
     <EditText
         android:id="@+id/amount_bill"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="222dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
         android:ems="10"
         android:hint="@string/amount_bill_hint"
         android:inputType="textPersonName"
@@ -46,11 +46,11 @@
 
     <EditText
         android:id="@+id/amount_tip_percent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="36dp"
+        android:layout_width="242dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="52dp"
         android:ems="10"
         android:hint="@string/amount_tip_percent_hint"
         android:inputType="textPersonName"

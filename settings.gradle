@@ -1,1 +1,1 @@
-include ':app', 'HelloAndroid', 'TipCalculatorV0', 'TipCalculatorV1', 'TipCalculatorV2', 'TipCalculatorV3', 'TipCalculatorV4'
+include ':app', 'HelloAndroid', 'TipCalculatorV0', 'TipCalculatorV1', 'TipCalculatorV2', 'TipCalculatorV3', 'TipCalculatorV4', 'TicTacToeV0', 'TicTacToeV1', 'TicTacToeV2', 'TicTacToeV3', 'TicTacToeV4', 'TicTacToeV5'

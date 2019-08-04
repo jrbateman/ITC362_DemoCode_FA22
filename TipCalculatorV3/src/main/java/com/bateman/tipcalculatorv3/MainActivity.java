@@ -8,6 +8,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import java.text.NumberFormat;
 
+// Add the click event for the calculations
+
+
 public class MainActivity extends AppCompatActivity {
   private TipCalculator tipCalc;
   public NumberFormat money = NumberFormat.getCurrencyInstance( );

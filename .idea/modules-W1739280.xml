@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CandyStoreV0/CandyStoreV0.iml" filepath="$PROJECT_DIR$/CandyStoreV0/CandyStoreV0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CandyStoreV1/CandyStoreV1.iml" filepath="$PROJECT_DIR$/CandyStoreV1/CandyStoreV1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CandyStoreV2/CandyStoreV2.iml" filepath="$PROJECT_DIR$/CandyStoreV2/CandyStoreV2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CandyStoreV3/CandyStoreV3.iml" filepath="$PROJECT_DIR$/CandyStoreV3/CandyStoreV3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CandyStoreV4/CandyStoreV4.iml" filepath="$PROJECT_DIR$/CandyStoreV4/CandyStoreV4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CandyStoreV5/CandyStoreV5.iml" filepath="$PROJECT_DIR$/CandyStoreV5/CandyStoreV5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemoCode.iml" filepath="$PROJECT_DIR$/DemoCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloAndroid/HelloAndroid.iml" filepath="$PROJECT_DIR$/HelloAndroid/HelloAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TicTacToeV0/TicTacToeV0.iml" filepath="$PROJECT_DIR$/TicTacToeV0/TicTacToeV0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TicTacToeV1/TicTacToeV1.iml" filepath="$PROJECT_DIR$/TicTacToeV1/TicTacToeV1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TicTacToeV2/TicTacToeV2.iml" filepath="$PROJECT_DIR$/TicTacToeV2/TicTacToeV2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TicTacToeV3/TicTacToeV3.iml" filepath="$PROJECT_DIR$/TicTacToeV3/TicTacToeV3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TicTacToeV4/TicTacToeV4.iml" filepath="$PROJECT_DIR$/TicTacToeV4/TicTacToeV4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TicTacToeV5/TicTacToeV5.iml" filepath="$PROJECT_DIR$/TicTacToeV5/TicTacToeV5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TipCalculatorV0/TipCalculatorV0.iml" filepath="$PROJECT_DIR$/TipCalculatorV0/TipCalculatorV0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TipCalculatorV1/TipCalculatorV1.iml" filepath="$PROJECT_DIR$/TipCalculatorV1/TipCalculatorV1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TipCalculatorV2/TipCalculatorV2.iml" filepath="$PROJECT_DIR$/TipCalculatorV2/TipCalculatorV2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TipCalculatorV3/TipCalculatorV3.iml" filepath="$PROJECT_DIR$/TipCalculatorV3/TipCalculatorV3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TipCalculatorV4/TipCalculatorV4.iml" filepath="$PROJECT_DIR$/TipCalculatorV4/TipCalculatorV4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
