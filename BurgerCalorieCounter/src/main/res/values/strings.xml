@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Burger Calorie Counter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="one">Beef Patty</string>
+    <string name="two">Lamb Patty</string>
+    <string name="three">Ostrich Patty</string>
+
+    <string name="prosciutto">Prosciutto</string>
+    <string name="cheddar">Asiago Cheese</string>
+    <string name="provolone">Creme Fraiche</string>
+
+    <string name="sauce">Caviar sauce up to one teaspoon:</string>
+    <string name="calorie">Calories?</string>
+
+    <string name="bun_img">bun</string>
+
+</resources>
