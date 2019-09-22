@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">IntentsDemo</string>
+    <string name="go_get_name">Go Get Name</string>
+    <string name="go_get_it">Go Get It</string>
+    <string name="the_users_name_is">The Users Name is</string>
+</resources>
