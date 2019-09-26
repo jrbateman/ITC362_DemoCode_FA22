@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shades II</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- SHADE LIST COLOR -->
+    <string name="gold">GOLD</string>
+    <string name="blue">BLUE</string>
+    <string name="plum">PLUM</string>
+
+    <!-- SHADE DETAIL INFORMATION -->
+    <string name="plum_is">Plum is a deep purple color. It is used in weddings. </string>
+    <string name="blue_is">Blue is the color of peace and trust.</string>
+    <string name="gold_is">Gold is associated with sunshine and knowledge.</string>
+
+
+</resources>
