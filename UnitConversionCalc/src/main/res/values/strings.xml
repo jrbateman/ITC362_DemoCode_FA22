@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Unit Conversion Calculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- LAYOUT ELEMENT STRINGS -->
+    <string name="feet">Feet</string>
+    <string name="meters">Meters</string>
+    <string name="inches">Inches</string>
+    <string name="centimeters">Centimeters</string>
+    <string name="pounds">Pounds</string>
+    <string name="grams">Grams</string>
+
+    <!-- ACTIONBAR ICON STRINGS -->
+    <string name="ui_menu_search">search</string>
+    <string name="ui_menu_send">send</string>
+    <string name="ui_menu_share">share</string>
+    <string name="ui_menu_about">about</string>
+    <string name="ui_menu_feedback">feedback</string>
+
+    <string name="ui_menu_feet_meters">Feet to Meters</string>
+    <string name="ui_menu_inches_cent">Inches to Centimeters</string>
+    <string name="ui_menu_pounds_grams">Pounds to Grams</string>
+    <string name="ui_menu_quit">Quit</string>
+    <string name="zero">0.0</string>
+
+</resources>

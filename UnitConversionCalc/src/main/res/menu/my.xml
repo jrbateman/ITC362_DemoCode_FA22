@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity" >
+
+    <!-- ITEMS IN THE DROPDOWN OVERFLOW MENU -->
+    <item
+        android:id="@+id/menuitem_feet_meters"
+        android:showAsAction="never"
+        android:title="@string/ui_menu_feet_meters">
+    </item>
+    <item
+        android:id="@+id/menuitem_inches_cent"
+        android:showAsAction="never"
+        android:title="@string/ui_menu_inches_cent">
+    </item>
+    <item
+        android:id="@+id/menuitem_pounds_grams"
+        android:showAsAction="never"
+        android:title="@string/ui_menu_pounds_grams">
+    </item>
+    <item
+        android:id="@+id/menuitem_quit"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:showAsAction="never"
+        android:title="@string/ui_menu_quit">
+    </item>
+
+</menu>
