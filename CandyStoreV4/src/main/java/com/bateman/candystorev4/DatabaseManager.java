@@ -12,7 +12,7 @@ public class
 
 DatabaseManager extends SQLiteOpenHelper {
   private static final String DATABASE_NAME = "candyDB";
-  private static final int DATABASE_VERSION = 1;
+  private static final int DATABASE_VERSION = 2;
   private static final String TABLE_CANDY = "candy";
   private static final String ID = "id";
   private static final String NAME = "name";

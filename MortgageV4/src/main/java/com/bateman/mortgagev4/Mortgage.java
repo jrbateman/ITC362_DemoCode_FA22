@@ -87,9 +87,9 @@ public class Mortgage {
     SharedPreferences pref =
         PreferenceManager.getDefaultSharedPreferences( context );
     SharedPreferences.Editor editor = pref.edit( );
-    editor.putFloat( PREFERENCE_AMOUNT, amount );
-    editor.putInt( PREFERENCE_YEARS, years );
-    editor.putFloat( PREFERENCE_RATE, rate );
+    editor.putFloat(PREFERENCE_AMOUNT, amount );
+    editor.putInt(PREFERENCE_YEARS, years );
+    editor.putFloat(PREFERENCE_RATE, rate );
     editor.commit( );
   }
 }
