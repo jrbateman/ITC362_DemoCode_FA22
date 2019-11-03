@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Touch Gestures Experiment 1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="clear_btn">Clear</string>
+    <string name="empty">\n</string>
+    <string name="experiment">Experiment with a Touch Gesture.</string>
+
+</resources>
