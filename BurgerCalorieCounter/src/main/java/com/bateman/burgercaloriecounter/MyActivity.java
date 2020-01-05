@@ -16,8 +16,6 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
 
-
-
 public class MyActivity extends Activity{
 
     // TASK 1: DECLARE UI OBJECTS TO BE REFERENCED
