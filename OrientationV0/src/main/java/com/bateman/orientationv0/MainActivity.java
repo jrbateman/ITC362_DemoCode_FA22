@@ -1,5 +1,7 @@
 package com.bateman.orientationv0;
 
+// we demonstrate how we can retrieve device information
+
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.Point;

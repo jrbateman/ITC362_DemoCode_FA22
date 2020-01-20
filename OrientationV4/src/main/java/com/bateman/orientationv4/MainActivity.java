@@ -1,5 +1,7 @@
 package com.bateman.orientationv4;
 
+//Manage Layout and Orientation 100% by Code
+
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;

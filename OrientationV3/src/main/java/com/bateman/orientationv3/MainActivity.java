@@ -1,5 +1,8 @@
 package com.bateman.orientationv3;
 
+//One Layout XML File for Both Orientations,
+// Modify the Layout by Code
+
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

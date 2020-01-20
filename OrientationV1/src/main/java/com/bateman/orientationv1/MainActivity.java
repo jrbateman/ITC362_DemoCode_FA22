@@ -1,5 +1,8 @@
 package com.bateman.orientationv1;
 
+// we demonstrate how we can retrieve device information
+//we need to code our app so that it will react properly to a change in device orientation
+
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
