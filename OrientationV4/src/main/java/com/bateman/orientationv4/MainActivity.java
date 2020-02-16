@@ -82,15 +82,22 @@ public class MainActivity extends AppCompatActivity {
     b2.setText( "GO TO VIEW 2" );
     b3.setText( "GO TO VIEW 3" );
 
-    LayoutParams params = new LayoutParams
-      ( LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT );
-    b1.setLayoutParams( params );
-    b2.setLayoutParams( params );
-    b3.setLayoutParams( params );
 
-    linearLayout.addView( b1 );
-    linearLayout.addView( b2 );
-    linearLayout.addView( b3 );
+
+    LayoutParams params = new LayoutParams
+            (LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
+    b1.setLayoutParams(params);
+    b2.setLayoutParams(params);
+    b3.setLayoutParams(params);
+
+    b1.setTextSize(36);
+    b2.setTextSize(36);
+    b3.setTextSize(36);
+
+    linearLayout.addView(b1);
+    linearLayout.addView(b2);
+    linearLayout.addView(b3);
+
 
     setContentView( linearLayout );
   }
