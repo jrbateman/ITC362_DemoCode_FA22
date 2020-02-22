@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/game_control_background"
+    android:gravity="center" >
+
+    <LinearLayout style="@style/wrapCenterWeight1" >
+        <Button
+            android:text="@string/play"
+            style="@style/buttonStyle"
+            android:onClick="play" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/wrapCenterWeight1" >
+        <TextView
+            android:id="@+id/status"
+            style="@style/textStyle" />
+    </LinearLayout>
+
+</LinearLayout>
