@@ -7,6 +7,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+// V0 - Defining and Adding a Fragment to an Activity Using a Layout XML File
+// V1 - Adding GUI Components, Styles, Strings, and Colors
+// V2 - Defining a Fragment Using a Layout XML File and Adding the Fragment to an Activity by Code
+//  we display the fragment on the top right pane (with the blue background) of the screen showing
+//  the state of completion of the word, and an EditText for the user to enter a letter.
+//  We code the fragment in an XML file, fragment_game_state.xml, and create the fragment by code.
+
 public class MainActivity extends AppCompatActivity {
 
   private Hangman game;

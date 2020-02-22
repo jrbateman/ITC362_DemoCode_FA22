@@ -3,6 +3,9 @@ package com.bateman.hangmanv0;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+// V0 - Defining and Adding a Fragment to an Activity Using a Layout XML File
+
+
 public class MainActivity extends AppCompatActivity {
 
   @Override

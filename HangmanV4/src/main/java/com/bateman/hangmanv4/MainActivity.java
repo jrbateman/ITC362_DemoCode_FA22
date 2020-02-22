@@ -9,6 +9,11 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+
+// V4 - Communication between Fragments and Their Activity: Enabling Play
+//  we complete the app by processing the user’s letter and enabling the user to play the game.
+//  We also illustrate how fragments can communicate with their activity when processing an event.
+
 public class MainActivity extends AppCompatActivity {
 
   private Hangman game;

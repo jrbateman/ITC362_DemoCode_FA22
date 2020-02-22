@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+// V6 - Making a Fragment Reusable
+
 public class MainActivity extends AppCompatActivity implements GameStateFragment.Callbacks {
 
   private Hangman game;

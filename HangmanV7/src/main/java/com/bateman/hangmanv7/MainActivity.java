@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+// V7 - Improving the GUI: Processing the Keyboard Input Directly
+
 public class MainActivity extends AppCompatActivity implements GameStateFragment.Callbacks {
 
   private Hangman game;

@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+// V0 - Defining and Adding a Fragment to an Activity Using a Layout XML File
+// V1 - Adding GUI Components, Styles, Strings, and Colors
+
 public class MainActivity extends AppCompatActivity {
 
   private Hangman game;

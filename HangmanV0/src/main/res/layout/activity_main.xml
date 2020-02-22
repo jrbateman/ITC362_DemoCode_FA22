@@ -4,7 +4,7 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="horizontal"
-              tools:context="com.bateman.hangmanv0.MainActivity" >
+              tools:context=".MainActivity" >
 
     <fragment
         android:id="@+id/gameControl"
@@ -28,11 +28,11 @@
             android:layout_height="0dp" />
 
         <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
             android:background="#F0F0"
-            android:orientation="vertical" />
+            android:layout_weight="1"
+            android:layout_height="0dp" />
 
     </LinearLayout>
 

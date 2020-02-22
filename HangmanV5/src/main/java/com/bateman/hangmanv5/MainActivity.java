@@ -9,6 +9,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+// V5 - Using an Invisible Fragment
+//  We can also use a fragment that can perform some work in the background of the app,
+//  without any visual representation
+
 public class MainActivity extends AppCompatActivity {
 
   private Hangman game;
