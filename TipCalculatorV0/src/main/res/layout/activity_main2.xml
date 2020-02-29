@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/Bill_Label"
@@ -57,4 +57,4 @@
         android:textSize="28sp"
         app:layout_constraintStart_toEndOf="@+id/Tip_Label"
         app:layout_constraintTop_toBottomOf="@+id/amount_bill" />
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.ConstraintLayout>

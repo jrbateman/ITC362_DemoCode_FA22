@@ -1,13 +1,14 @@
 package com.bateman.hangmanv7;
 
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 // V7 - Improving the GUI: Processing the Keyboard Input Directly
 
@@ -24,7 +25,8 @@ public class MainActivity extends AppCompatActivity implements GameStateFragment
     TextView status = ( TextView ) findViewById( R.id.status );
     status.setText( "" + game.getGuessesLeft( ) );
 
-    FragmentManager fragmentManager = getFragmentManager( );
+   // FragmentManager fragmentManager = getFragmentManager( );
+    FragmentManager fragmentManager = getSupportFragmentManager( );
     if( fragmentManager.findFragmentById( R.id.game_state ) == null ) {
       FragmentTransaction transaction = fragmentManager.beginTransaction( );
       GameStateFragment fragment = new GameStateFragment( );
@@ -62,7 +64,8 @@ public class MainActivity extends AppCompatActivity implements GameStateFragment
       status.setText( "" + game.getGuessesLeft() );
 
       // update incomplete word
-      FragmentManager fragmentManager = getFragmentManager( );
+      //FragmentManager fragmentManager = getFragmentManager( );
+      FragmentManager fragmentManager = getSupportFragmentManager( );
       GameStateFragment gsFragment = ( GameStateFragment )
           fragmentManager.findFragmentById( R.id.game_state );
       View gsFragmentView = gsFragment.getView( );

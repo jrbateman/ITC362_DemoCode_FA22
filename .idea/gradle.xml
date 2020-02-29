@@ -1,13 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <compositeConfiguration>
-          <compositeBuild compositeDefinitionSource="SCRIPT" />
-        </compositeConfiguration>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AutoPurchaseApp" />
+            <option value="$PROJECT_DIR$/BeeFindsFingerDebug" />
+            <option value="$PROJECT_DIR$/BurgerCalorieCounter" />
+            <option value="$PROJECT_DIR$/Calculator" />
+            <option value="$PROJECT_DIR$/CandyStoreV0" />
+            <option value="$PROJECT_DIR$/CandyStoreV1" />
+            <option value="$PROJECT_DIR$/CandyStoreV2" />
+            <option value="$PROJECT_DIR$/CandyStoreV3" />
+            <option value="$PROJECT_DIR$/CandyStoreV4" />
+            <option value="$PROJECT_DIR$/CandyStoreV5" />
+            <option value="$PROJECT_DIR$/DigitalStopWatch" />
+            <option value="$PROJECT_DIR$/HangmanV0" />
+            <option value="$PROJECT_DIR$/HangmanV1" />
+            <option value="$PROJECT_DIR$/HangmanV2" />
+            <option value="$PROJECT_DIR$/HangmanV3" />
+            <option value="$PROJECT_DIR$/HangmanV4" />
+            <option value="$PROJECT_DIR$/HangmanV5" />
+            <option value="$PROJECT_DIR$/HangmanV6" />
+            <option value="$PROJECT_DIR$/HangmanV7" />
+            <option value="$PROJECT_DIR$/HelloAndroid" />
+            <option value="$PROJECT_DIR$/IntentsDemo" />
+            <option value="$PROJECT_DIR$/MortgageV0" />
+            <option value="$PROJECT_DIR$/MortgageV1" />
+            <option value="$PROJECT_DIR$/MortgageV2" />
+            <option value="$PROJECT_DIR$/MortgageV3" />
+            <option value="$PROJECT_DIR$/MortgageV4" />
+            <option value="$PROJECT_DIR$/OrientationV0" />
+            <option value="$PROJECT_DIR$/OrientationV1" />
+            <option value="$PROJECT_DIR$/OrientationV2" />
+            <option value="$PROJECT_DIR$/OrientationV3" />
+            <option value="$PROJECT_DIR$/OrientationV4" />
+            <option value="$PROJECT_DIR$/PaintCalculator" />
+            <option value="$PROJECT_DIR$/PuzzleV0" />
+            <option value="$PROJECT_DIR$/PuzzleV1" />
+            <option value="$PROJECT_DIR$/PuzzleV2" />
+            <option value="$PROJECT_DIR$/PuzzleV3" />
+            <option value="$PROJECT_DIR$/PuzzleV4" />
+            <option value="$PROJECT_DIR$/Shades" />
+            <option value="$PROJECT_DIR$/ShadesV1" />
+            <option value="$PROJECT_DIR$/ShadesV2" />
+            <option value="$PROJECT_DIR$/ShippingApp" />
+            <option value="$PROJECT_DIR$/TicTacToeV0" />
+            <option value="$PROJECT_DIR$/TicTacToeV1" />
+            <option value="$PROJECT_DIR$/TicTacToeV2" />
+            <option value="$PROJECT_DIR$/TicTacToeV3" />
+            <option value="$PROJECT_DIR$/TicTacToeV4" />
+            <option value="$PROJECT_DIR$/TicTacToeV5" />
+            <option value="$PROJECT_DIR$/TipCalculatorV0" />
+            <option value="$PROJECT_DIR$/TipCalculatorV1" />
+            <option value="$PROJECT_DIR$/TipCalculatorV2" />
+            <option value="$PROJECT_DIR$/TipCalculatorV3" />
+            <option value="$PROJECT_DIR$/TipCalculatorV4" />
+            <option value="$PROJECT_DIR$/TouchGesturesExperiment1" />
+            <option value="$PROJECT_DIR$/TouchesV0" />
+            <option value="$PROJECT_DIR$/TouchesV1" />
+            <option value="$PROJECT_DIR$/TouchesV2" />
+            <option value="$PROJECT_DIR$/TouchesV3" />
+            <option value="$PROJECT_DIR$/UnitConversionCalc" />
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
         <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>

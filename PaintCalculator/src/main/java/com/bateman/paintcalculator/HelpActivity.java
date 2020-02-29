@@ -1,10 +1,11 @@
 package com.bateman.paintcalculator;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 
-public class HelpActivity extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class HelpActivity extends AppCompatActivity {
     @Override
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -1,6 +1,5 @@
 package com.bateman.beefindsfinger;
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
@@ -13,8 +12,10 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MyActivity extends Activity {
+
+public class MyActivity extends AppCompatActivity {
 
     //ANIMATION IS SPLIT INTO TWO THREADS:
     //          CALCULATING BEE MOVEMENT

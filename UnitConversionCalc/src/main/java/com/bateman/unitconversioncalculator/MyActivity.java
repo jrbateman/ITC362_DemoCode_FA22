@@ -1,7 +1,5 @@
 package com.bateman.unitconversioncalculator;
 
-import android.app.ActionBar;
-import android.app.Activity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -11,8 +9,11 @@ import android.view.MotionEvent;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MyActivity extends Activity {
+
+public class MyActivity extends AppCompatActivity {
 
     private TextView inputLabel;
     private TextView outputLabel;
@@ -83,7 +84,7 @@ public class MyActivity extends Activity {
     }
 
     private void toggleActionBar() {
-        ActionBar actionBar = getActionBar();
+        ActionBar actionBar = getSupportActionBar();
 
         if(actionBar != null) {
             if(actionBar.isShowing()) {

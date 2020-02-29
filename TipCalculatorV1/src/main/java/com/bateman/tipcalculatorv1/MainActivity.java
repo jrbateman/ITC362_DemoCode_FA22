@@ -4,8 +4,10 @@ package com.bateman.tipcalculatorv1;
 // and two TextViews to display the tip amount and the total amount
 // as well as one Button.
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 
 public class MainActivity extends AppCompatActivity {
 

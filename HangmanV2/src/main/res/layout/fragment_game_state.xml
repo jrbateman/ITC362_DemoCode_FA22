@@ -13,10 +13,12 @@
   </LinearLayout>
 
   <LinearLayout style="@style/wrapCenterWeight1" >
+
     <EditText
-      android:id="@+id/letter"
-      style="@style/editTextStyle"
-      android:imeOptions="actionDone"/>
+        android:id="@+id/letter"
+        style="@style/editTextStyle"
+        android:background="@color/inputColor"
+        android:imeOptions="actionDone" />
   </LinearLayout>
 
 </LinearLayout>

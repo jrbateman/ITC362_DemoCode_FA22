@@ -1,14 +1,15 @@
 package com.bateman.calculator;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MyActivity extends Activity {
+
+public class MyActivity extends AppCompatActivity {
 
     private TextView mNumberDisplay;
     private SimpleExpression mExpression;

@@ -1,10 +1,12 @@
 package com.bateman.mortgagev4;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+
 import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class DataActivity extends AppCompatActivity {
   public void onCreate( Bundle savedInstanceState ) {

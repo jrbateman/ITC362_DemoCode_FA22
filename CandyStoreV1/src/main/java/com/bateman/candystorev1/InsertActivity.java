@@ -1,11 +1,12 @@
 package com.bateman.candystorev1;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
-public class InsertActivity extends AppCompatActivity  {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class InsertActivity extends AppCompatActivity {
   public void onCreate( Bundle savedInstanceState ) {
     super.onCreate( savedInstanceState );
     setContentView( R.layout.activity_insert );

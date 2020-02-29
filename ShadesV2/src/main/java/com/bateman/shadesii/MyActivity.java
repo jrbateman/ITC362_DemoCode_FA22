@@ -1,11 +1,12 @@
 package com.bateman.shadesii;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MyActivity extends Activity implements
+
+public class MyActivity extends AppCompatActivity implements
         MyListFragment.OnItemSelectedListener {
 
 
@@ -19,7 +20,7 @@ public class MyActivity extends Activity implements
     public void onColorItemSelected(String link) {
 
         //CHECK IF FRAGMENT2 EXISTS IN THIS LAYOUT
-        InformationFragment fragment2 = (InformationFragment) getFragmentManager()
+        InformationFragment fragment2 = (InformationFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.fragment2);
 
         //A TWO PANE CONFIGURATION

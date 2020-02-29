@@ -1,14 +1,16 @@
 package com.bateman.puzzlev4;
 
-import java.util.Random;
-import android.app.Activity;
+import android.graphics.Color;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.graphics.Color;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import java.util.Random;
 
 public class PuzzleView extends RelativeLayout {
   private TextView [] tvs;
@@ -21,14 +23,14 @@ public class PuzzleView extends RelativeLayout {
   private int emptyPosition;
   private int [] positions;
 
-  public PuzzleView( Activity activity, int width, int height,
-                     int numberOfPieces ) {
+  public PuzzleView(AppCompatActivity activity, int width, int height,
+                    int numberOfPieces ) {
     super( activity );
     buildGuiByCode( activity, width, height, numberOfPieces );
   }
 
-  public void buildGuiByCode( Activity activity, int width, int height,
-                              int numberOfPieces ) {
+  public void buildGuiByCode(AppCompatActivity activity, int width, int height,
+                             int numberOfPieces ) {
     positions = new int[numberOfPieces];
     tvs = new TextView[numberOfPieces];
     colors = new int[tvs.length];

@@ -1,13 +1,14 @@
 package com.bateman.hangmanv5;
 
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 // V5 - Using an Invisible Fragment
 //  We can also use a fragment that can perform some work in the background of the app,
@@ -26,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
     TextView status = ( TextView ) findViewById( R.id.status );
     status.setText( "" + game.getGuessesLeft( ) );
 
-    FragmentManager fragmentManager = getFragmentManager( );
+    //FragmentManager fragmentManager = getFragmentManager( );
+    FragmentManager fragmentManager = getSupportFragmentManager( );
     if( fragmentManager.findFragmentById( R.id.game_state ) == null ) {
       FragmentTransaction transaction = fragmentManager.beginTransaction( );
       GameStateFragment fragment = new GameStateFragment( );
@@ -64,7 +66,8 @@ public class MainActivity extends AppCompatActivity {
       status.setText( "" + game.getGuessesLeft() );
 
       // update incomplete word
-      FragmentManager fragmentManager = getFragmentManager( );
+     // FragmentManager fragmentManager = getFragmentManager( );
+      FragmentManager fragmentManager = getSupportFragmentManager( );
       GameStateFragment gsFragment = ( GameStateFragment )
           fragmentManager.findFragmentById( R.id.game_state );
       View gsFragmentView = gsFragment.getView( );

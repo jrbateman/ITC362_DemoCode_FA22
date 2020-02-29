@@ -7,11 +7,13 @@ package com.bateman.tipcalculatorv4;
 // As soon as the user types a number, the tip and the total amounts are updated.
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.text.NumberFormat;
 
 public class MainActivity extends AppCompatActivity {

@@ -7,10 +7,11 @@
     android:gravity="center" >
 
     <LinearLayout style="@style/wrapCenterWeight1" >
+
         <Button
-            android:text="@string/play"
             style="@style/buttonStyle"
-            android:onClick="play" />
+            android:onClick="play"
+            android:text="@string/play" />
     </LinearLayout>
 
     <LinearLayout style="@style/wrapCenterWeight1" >

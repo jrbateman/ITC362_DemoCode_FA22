@@ -1,11 +1,14 @@
 package com.bateman.hangmanv3;
 
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
+//import android.support.v7.app.AppCompatActivity;
 
 // V0 - Defining and Adding a Fragment to an Activity Using a Layout XML File
 // V1 - Adding GUI Components, Styles, Strings, and Colors
@@ -31,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     TextView status = ( TextView ) findViewById( R.id.status );
     status.setText( "" + game.getGuessesLeft( ) );
 
-    FragmentManager fragmentManager = getFragmentManager( );
+    FragmentManager fragmentManager = getSupportFragmentManager( );
     if( fragmentManager.findFragmentById( R.id.game_state ) == null ) {
       FragmentTransaction transaction = fragmentManager.beginTransaction( );
       GameStateFragment fragment = new GameStateFragment( );

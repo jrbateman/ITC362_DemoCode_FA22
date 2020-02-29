@@ -1,8 +1,9 @@
 package com.bateman.helloandroid;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
   public static String MA = "MainActivity";

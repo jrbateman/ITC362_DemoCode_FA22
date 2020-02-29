@@ -2,7 +2,6 @@ package com.bateman.candystorev4;
 
 import android.graphics.Point;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.text.InputType;
 import android.view.Gravity;
 import android.view.View;
@@ -14,9 +13,11 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.ArrayList;
 
-public class UpdateActivity extends AppCompatActivity  {
+public class UpdateActivity extends AppCompatActivity {
   DatabaseManager dbManager;
 
   public void onCreate( Bundle savedInstanceState ) {

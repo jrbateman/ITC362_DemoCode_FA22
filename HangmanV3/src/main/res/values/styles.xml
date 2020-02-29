@@ -24,12 +24,12 @@
 
 <style name = "editTextStyle" parent = "textStyle">
   <item name = "android:inputType">textCapCharacters</item>
-  <item name = "android:background">@color/inputColor</item>
+  <item name = "background">@color/inputColor</item>
   <item name = "android:hint">Type a letter here</item>
 </style>
 
 <style name = "buttonStyle" parent = "textStyle">
-  <item name = "android:background">@color/buttonColor</item>
+  <item name = "background">@color/buttonColor</item>
 </style>
 
 </resources>

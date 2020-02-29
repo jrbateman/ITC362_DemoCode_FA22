@@ -1,10 +1,8 @@
 package com.bateman.burgercaloriecounter;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.CheckBox;
@@ -15,8 +13,10 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MyActivity extends Activity{
+
+public class MyActivity extends AppCompatActivity {
 
     // TASK 1: DECLARE UI OBJECTS TO BE REFERENCED
     private RadioGroup pattyRG;

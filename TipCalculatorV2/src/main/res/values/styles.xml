@@ -16,7 +16,7 @@
   </style>
 
   <style name="LabelStyle" parent="TextStyle">
-    <item name = "android:background">@color/lightGray</item>
+    <item name = "background">@color/lightGray</item>
   </style>
 
   <style name="CenteredTextStyle" parent="TextStyle">
@@ -28,11 +28,11 @@
   </style>
 
   <style name="OutputStyle" parent="CenteredTextStyle">
-    <item name = "android:background">@color/lightGreen</item>
+    <item name = "background">@color/lightGreen</item>
   </style>
 
   <style name="ButtonStyle" parent="TextStyle">
-    <item name = "android:background">@color/darkGreen</item>
+    <item name = "background">@color/darkGreen</item>
   </style>
 </resources>
 

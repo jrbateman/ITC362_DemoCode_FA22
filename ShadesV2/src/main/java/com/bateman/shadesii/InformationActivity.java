@@ -1,12 +1,13 @@
 package com.bateman.shadesii;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class InformationActivity extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class InformationActivity extends AppCompatActivity {
 
 
 
@@ -25,7 +26,7 @@ public class InformationActivity extends Activity {
         setContentView(R.layout.information_fragment);
 
         //SHOW THE UP BUTTON IN THE ACTION BAR
-        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Intent intent = getIntent();
         String informationValue = intent.getStringExtra("Information");

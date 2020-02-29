@@ -15,24 +15,24 @@
         tools:layout="@layout/fragment_game_control"/>
 
     <LinearLayout
-        android:orientation="vertical"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:layout_width="0dp" >
+        android:orientation="vertical">
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:background="#F00F"
-            android:layout_weight="1"
-            android:layout_height="0dp" />
+            android:orientation="vertical" />
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:background="#F0F0"
+            android:layout_height="0dp"
             android:layout_weight="1"
-            android:layout_height="0dp" />
+            android:background="#F0F0"
+            android:orientation="vertical" />
 
     </LinearLayout>
 

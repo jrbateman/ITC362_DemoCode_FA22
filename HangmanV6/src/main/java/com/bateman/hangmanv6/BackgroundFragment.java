@@ -1,6 +1,6 @@
 package com.bateman.hangmanv6;
 
-import android.app.Fragment;
+import androidx.fragment.app.Fragment;
 
 public class BackgroundFragment extends Fragment {
 

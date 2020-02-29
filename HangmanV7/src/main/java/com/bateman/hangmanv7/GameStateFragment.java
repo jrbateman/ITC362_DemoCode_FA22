@@ -1,6 +1,5 @@
 package com.bateman.hangmanv7;
 
-import android.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -10,6 +9,8 @@ import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.fragment.app.Fragment;
 
 public class GameStateFragment extends Fragment {
 

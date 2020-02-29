@@ -1,6 +1,5 @@
 package com.bateman.stopwatch;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
@@ -10,8 +9,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MyActivity extends Activity {
+
+public class MyActivity extends AppCompatActivity {
 
     // UI ELEMENTS: BUTTONS WILL TOGGLE IN VISIBILITY
     private TextView timeDisplay;
@@ -22,6 +23,7 @@ public class MyActivity extends Activity {
     // TIME ELEMENTS
     private WatchTime watchTime;
     private long timeInMilliseconds = 0L;
+    private Handler mHandler;
 
     // THE HANDLER FOR THE THREAD ELEMENT
 
