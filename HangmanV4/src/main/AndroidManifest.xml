@@ -9,7 +9,8 @@
       android:supportsRtl="true"
       android:theme="@style/AppTheme">
     <activity android:name="com.bateman.hangmanv4.MainActivity"
-        android:screenOrientation="landscape">
+        android:screenOrientation="fullSensor"
+        android:windowSoftInputMode="stateAlwaysHidden">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
 

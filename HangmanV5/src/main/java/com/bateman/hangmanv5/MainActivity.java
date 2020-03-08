@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     //FragmentManager fragmentManager = getFragmentManager( );
     FragmentManager fragmentManager = getSupportFragmentManager( );
+
     if( fragmentManager.findFragmentById( R.id.game_state ) == null ) {
       FragmentTransaction transaction = fragmentManager.beginTransaction( );
       GameStateFragment fragment = new GameStateFragment( );

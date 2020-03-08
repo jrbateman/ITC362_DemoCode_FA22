@@ -25,28 +25,31 @@ public class MainActivity extends AppCompatActivity implements GameStateFragment
     TextView status = ( TextView ) findViewById( R.id.status );
     status.setText( "" + game.getGuessesLeft( ) );
 
-   // FragmentManager fragmentManager = getFragmentManager( );
-    FragmentManager fragmentManager = getSupportFragmentManager( );
-    if( fragmentManager.findFragmentById( R.id.game_state ) == null ) {
-      FragmentTransaction transaction = fragmentManager.beginTransaction( );
-      GameStateFragment fragment = new GameStateFragment( );
-      transaction.add( R.id.game_state, fragment );
-      transaction.commit( );
+    FragmentManager fm = getSupportFragmentManager();
+
+    if (fm.findFragmentById(R.id.game_state)== null){
+      FragmentTransaction ft = fm.beginTransaction();
+      GameStateFragment fragment = new GameStateFragment();
+      ft.add(R.id.game_state, fragment);
+      ft.commit();
+
     }
 
-    if( fragmentManager.findFragmentById( R.id.game_result ) == null ) {
-      FragmentTransaction transaction = fragmentManager.beginTransaction( );
-      GameResultFragment fragment = new GameResultFragment( );
-      transaction.add( R.id.game_result, fragment );
-      transaction.commit( );
+    if (fm.findFragmentById(R.id.game_result)== null){
+      FragmentTransaction ft = fm.beginTransaction();
+      GameResultFragment fragment = new GameResultFragment();
+      ft.add(R.id.game_result, fragment);
+      ft.commit();
+
     }
 
-    if( fragmentManager.findFragmentByTag( "background" ) == null ) {
-      FragmentTransaction transaction = fragmentManager.beginTransaction( );
-      BackgroundFragment fragment = new BackgroundFragment( );
-      transaction.add( fragment, "background" ); // tag is background
-      transaction.commit( );
+    if (fm.findFragmentByTag("background") == null){
+      FragmentTransaction ft = fm.beginTransaction();
+      BackgroundFragment fragment = new BackgroundFragment();
+      ft.add(fragment, "background");
+      ft.commit();
     }
+
   }
 
   public Hangman getGame( ) {

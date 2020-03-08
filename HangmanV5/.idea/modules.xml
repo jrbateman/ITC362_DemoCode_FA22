@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AutoPurchaseApp/AutoPurchaseApp.iml" filepath="$PROJECT_DIR$/../AutoPurchaseApp/AutoPurchaseApp.iml" group="ITC362_DemoCode_SP20/AutoPurchaseApp" />
+      <module fileurl="file://$PROJECT_DIR$/../BeeFindsFingerDebug/BeeFindsFingerDebug.iml" filepath="$PROJECT_DIR$/../BeeFindsFingerDebug/BeeFindsFingerDebug.iml" group="ITC362_DemoCode_SP20/BeeFindsFingerDebug" />
+      <module fileurl="file://$PROJECT_DIR$/../BurgerCalorieCounter/BurgerCalorieCounter.iml" filepath="$PROJECT_DIR$/../BurgerCalorieCounter/BurgerCalorieCounter.iml" group="ITC362_DemoCode_SP20/BurgerCalorieCounter" />
+      <module fileurl="file://$PROJECT_DIR$/../Calculator/Calculator.iml" filepath="$PROJECT_DIR$/../Calculator/Calculator.iml" group="ITC362_DemoCode_SP20/Calculator" />
+      <module fileurl="file://$PROJECT_DIR$/../CandyStoreV0/CandyStoreV0.iml" filepath="$PROJECT_DIR$/../CandyStoreV0/CandyStoreV0.iml" group="ITC362_DemoCode_SP20/CandyStoreV0" />
+      <module fileurl="file://$PROJECT_DIR$/../CandyStoreV1/CandyStoreV1.iml" filepath="$PROJECT_DIR$/../CandyStoreV1/CandyStoreV1.iml" group="ITC362_DemoCode_SP20/CandyStoreV1" />
+      <module fileurl="file://$PROJECT_DIR$/../CandyStoreV2/CandyStoreV2.iml" filepath="$PROJECT_DIR$/../CandyStoreV2/CandyStoreV2.iml" group="ITC362_DemoCode_SP20/CandyStoreV2" />
+      <module fileurl="file://$PROJECT_DIR$/../CandyStoreV3/CandyStoreV3.iml" filepath="$PROJECT_DIR$/../CandyStoreV3/CandyStoreV3.iml" group="ITC362_DemoCode_SP20/CandyStoreV3" />
+      <module fileurl="file://$PROJECT_DIR$/../CandyStoreV4/CandyStoreV4.iml" filepath="$PROJECT_DIR$/../CandyStoreV4/CandyStoreV4.iml" group="ITC362_DemoCode_SP20/CandyStoreV4" />
+      <module fileurl="file://$PROJECT_DIR$/../CandyStoreV5/CandyStoreV5.iml" filepath="$PROJECT_DIR$/../CandyStoreV5/CandyStoreV5.iml" group="ITC362_DemoCode_SP20/CandyStoreV5" />
+      <module fileurl="file://$PROJECT_DIR$/../DigitalStopWatch/DigitalStopWatch.iml" filepath="$PROJECT_DIR$/../DigitalStopWatch/DigitalStopWatch.iml" group="ITC362_DemoCode_SP20/DigitalStopWatch" />
+      <module fileurl="file://$PROJECT_DIR$/../HangmanV0/HangmanV0.iml" filepath="$PROJECT_DIR$/../HangmanV0/HangmanV0.iml" group="ITC362_DemoCode_SP20/HangmanV0" />
+      <module fileurl="file://$PROJECT_DIR$/../HangmanV1/HangmanV1.iml" filepath="$PROJECT_DIR$/../HangmanV1/HangmanV1.iml" group="ITC362_DemoCode_SP20/HangmanV1" />
+      <module fileurl="file://$PROJECT_DIR$/../HangmanV2/HangmanV2.iml" filepath="$PROJECT_DIR$/../HangmanV2/HangmanV2.iml" group="ITC362_DemoCode_SP20/HangmanV2" />
+      <module fileurl="file://$PROJECT_DIR$/../HangmanV3/HangmanV3.iml" filepath="$PROJECT_DIR$/../HangmanV3/HangmanV3.iml" group="ITC362_DemoCode_SP20/HangmanV3" />
+      <module fileurl="file://$PROJECT_DIR$/../HangmanV4/HangmanV4.iml" filepath="$PROJECT_DIR$/../HangmanV4/HangmanV4.iml" group="ITC362_DemoCode_SP20/HangmanV4" />
+      <module fileurl="file://$PROJECT_DIR$/HangmanV5.iml" filepath="$PROJECT_DIR$/HangmanV5.iml" group="ITC362_DemoCode_SP20/HangmanV5" />
+      <module fileurl="file://$PROJECT_DIR$/../HangmanV6/HangmanV6.iml" filepath="$PROJECT_DIR$/../HangmanV6/HangmanV6.iml" group="ITC362_DemoCode_SP20/HangmanV6" />
+      <module fileurl="file://$PROJECT_DIR$/../HangmanV7/HangmanV7.iml" filepath="$PROJECT_DIR$/../HangmanV7/HangmanV7.iml" group="ITC362_DemoCode_SP20/HangmanV7" />
+      <module fileurl="file://$PROJECT_DIR$/../HelloAndroid/HelloAndroid.iml" filepath="$PROJECT_DIR$/../HelloAndroid/HelloAndroid.iml" group="ITC362_DemoCode_SP20/HelloAndroid" />
+      <module fileurl="file://$PROJECT_DIR$/../ITC362_DemoCode_SP20.iml" filepath="$PROJECT_DIR$/../ITC362_DemoCode_SP20.iml" group="ITC362_DemoCode_SP20" />
+      <module fileurl="file://$PROJECT_DIR$/../IntentsDemo/IntentsDemo.iml" filepath="$PROJECT_DIR$/../IntentsDemo/IntentsDemo.iml" group="ITC362_DemoCode_SP20/IntentsDemo" />
+      <module fileurl="file://$PROJECT_DIR$/../MortgageV0/MortgageV0.iml" filepath="$PROJECT_DIR$/../MortgageV0/MortgageV0.iml" group="ITC362_DemoCode_SP20/MortgageV0" />
+      <module fileurl="file://$PROJECT_DIR$/../MortgageV1/MortgageV1.iml" filepath="$PROJECT_DIR$/../MortgageV1/MortgageV1.iml" group="ITC362_DemoCode_SP20/MortgageV1" />
+      <module fileurl="file://$PROJECT_DIR$/../MortgageV2/MortgageV2.iml" filepath="$PROJECT_DIR$/../MortgageV2/MortgageV2.iml" group="ITC362_DemoCode_SP20/MortgageV2" />
+      <module fileurl="file://$PROJECT_DIR$/../MortgageV3/MortgageV3.iml" filepath="$PROJECT_DIR$/../MortgageV3/MortgageV3.iml" group="ITC362_DemoCode_SP20/MortgageV3" />
+      <module fileurl="file://$PROJECT_DIR$/../MortgageV4/MortgageV4.iml" filepath="$PROJECT_DIR$/../MortgageV4/MortgageV4.iml" group="ITC362_DemoCode_SP20/MortgageV4" />
+      <module fileurl="file://$PROJECT_DIR$/../OrientationV0/OrientationV0.iml" filepath="$PROJECT_DIR$/../OrientationV0/OrientationV0.iml" group="ITC362_DemoCode_SP20/OrientationV0" />
+      <module fileurl="file://$PROJECT_DIR$/../OrientationV1/OrientationV1.iml" filepath="$PROJECT_DIR$/../OrientationV1/OrientationV1.iml" group="ITC362_DemoCode_SP20/OrientationV1" />
+      <module fileurl="file://$PROJECT_DIR$/../OrientationV2/OrientationV2.iml" filepath="$PROJECT_DIR$/../OrientationV2/OrientationV2.iml" group="ITC362_DemoCode_SP20/OrientationV2" />
+      <module fileurl="file://$PROJECT_DIR$/../OrientationV3/OrientationV3.iml" filepath="$PROJECT_DIR$/../OrientationV3/OrientationV3.iml" group="ITC362_DemoCode_SP20/OrientationV3" />
+      <module fileurl="file://$PROJECT_DIR$/../OrientationV4/OrientationV4.iml" filepath="$PROJECT_DIR$/../OrientationV4/OrientationV4.iml" group="ITC362_DemoCode_SP20/OrientationV4" />
+      <module fileurl="file://$PROJECT_DIR$/../PaintCalculator/PaintCalculator.iml" filepath="$PROJECT_DIR$/../PaintCalculator/PaintCalculator.iml" group="ITC362_DemoCode_SP20/PaintCalculator" />
+      <module fileurl="file://$PROJECT_DIR$/../PuzzleV0/PuzzleV0.iml" filepath="$PROJECT_DIR$/../PuzzleV0/PuzzleV0.iml" group="ITC362_DemoCode_SP20/PuzzleV0" />
+      <module fileurl="file://$PROJECT_DIR$/../PuzzleV1/PuzzleV1.iml" filepath="$PROJECT_DIR$/../PuzzleV1/PuzzleV1.iml" group="ITC362_DemoCode_SP20/PuzzleV1" />
+      <module fileurl="file://$PROJECT_DIR$/../PuzzleV2/PuzzleV2.iml" filepath="$PROJECT_DIR$/../PuzzleV2/PuzzleV2.iml" group="ITC362_DemoCode_SP20/PuzzleV2" />
+      <module fileurl="file://$PROJECT_DIR$/../PuzzleV3/PuzzleV3.iml" filepath="$PROJECT_DIR$/../PuzzleV3/PuzzleV3.iml" group="ITC362_DemoCode_SP20/PuzzleV3" />
+      <module fileurl="file://$PROJECT_DIR$/../PuzzleV4/PuzzleV4.iml" filepath="$PROJECT_DIR$/../PuzzleV4/PuzzleV4.iml" group="ITC362_DemoCode_SP20/PuzzleV4" />
+      <module fileurl="file://$PROJECT_DIR$/../Shades/Shades.iml" filepath="$PROJECT_DIR$/../Shades/Shades.iml" group="ITC362_DemoCode_SP20/Shades" />
+      <module fileurl="file://$PROJECT_DIR$/../ShadesV1/ShadesV1.iml" filepath="$PROJECT_DIR$/../ShadesV1/ShadesV1.iml" group="ITC362_DemoCode_SP20/ShadesV1" />
+      <module fileurl="file://$PROJECT_DIR$/../ShadesV2/ShadesV2.iml" filepath="$PROJECT_DIR$/../ShadesV2/ShadesV2.iml" group="ITC362_DemoCode_SP20/ShadesV2" />
+      <module fileurl="file://$PROJECT_DIR$/../ShippingApp/ShippingApp.iml" filepath="$PROJECT_DIR$/../ShippingApp/ShippingApp.iml" group="ITC362_DemoCode_SP20/ShippingApp" />
+      <module fileurl="file://$PROJECT_DIR$/../TicTacToeV0/TicTacToeV0.iml" filepath="$PROJECT_DIR$/../TicTacToeV0/TicTacToeV0.iml" group="ITC362_DemoCode_SP20/TicTacToeV0" />
+      <module fileurl="file://$PROJECT_DIR$/../TicTacToeV1/TicTacToeV1.iml" filepath="$PROJECT_DIR$/../TicTacToeV1/TicTacToeV1.iml" group="ITC362_DemoCode_SP20/TicTacToeV1" />
+      <module fileurl="file://$PROJECT_DIR$/../TicTacToeV2/TicTacToeV2.iml" filepath="$PROJECT_DIR$/../TicTacToeV2/TicTacToeV2.iml" group="ITC362_DemoCode_SP20/TicTacToeV2" />
+      <module fileurl="file://$PROJECT_DIR$/../TicTacToeV3/TicTacToeV3.iml" filepath="$PROJECT_DIR$/../TicTacToeV3/TicTacToeV3.iml" group="ITC362_DemoCode_SP20/TicTacToeV3" />
+      <module fileurl="file://$PROJECT_DIR$/../TicTacToeV4/TicTacToeV4.iml" filepath="$PROJECT_DIR$/../TicTacToeV4/TicTacToeV4.iml" group="ITC362_DemoCode_SP20/TicTacToeV4" />
+      <module fileurl="file://$PROJECT_DIR$/../TicTacToeV5/TicTacToeV5.iml" filepath="$PROJECT_DIR$/../TicTacToeV5/TicTacToeV5.iml" group="ITC362_DemoCode_SP20/TicTacToeV5" />
+      <module fileurl="file://$PROJECT_DIR$/../TipCalculatorV0/TipCalculatorV0.iml" filepath="$PROJECT_DIR$/../TipCalculatorV0/TipCalculatorV0.iml" group="ITC362_DemoCode_SP20/TipCalculatorV0" />
+      <module fileurl="file://$PROJECT_DIR$/../TipCalculatorV1/TipCalculatorV1.iml" filepath="$PROJECT_DIR$/../TipCalculatorV1/TipCalculatorV1.iml" group="ITC362_DemoCode_SP20/TipCalculatorV1" />
+      <module fileurl="file://$PROJECT_DIR$/../TipCalculatorV2/TipCalculatorV2.iml" filepath="$PROJECT_DIR$/../TipCalculatorV2/TipCalculatorV2.iml" group="ITC362_DemoCode_SP20/TipCalculatorV2" />
+      <module fileurl="file://$PROJECT_DIR$/../TipCalculatorV3/TipCalculatorV3.iml" filepath="$PROJECT_DIR$/../TipCalculatorV3/TipCalculatorV3.iml" group="ITC362_DemoCode_SP20/TipCalculatorV3" />
+      <module fileurl="file://$PROJECT_DIR$/../TipCalculatorV4/TipCalculatorV4.iml" filepath="$PROJECT_DIR$/../TipCalculatorV4/TipCalculatorV4.iml" group="ITC362_DemoCode_SP20/TipCalculatorV4" />
+      <module fileurl="file://$PROJECT_DIR$/../TouchGesturesExperiment1/TouchGesturesExperiment1.iml" filepath="$PROJECT_DIR$/../TouchGesturesExperiment1/TouchGesturesExperiment1.iml" group="ITC362_DemoCode_SP20/TouchGesturesExperiment1" />
+      <module fileurl="file://$PROJECT_DIR$/../TouchesV0/TouchesV0.iml" filepath="$PROJECT_DIR$/../TouchesV0/TouchesV0.iml" group="ITC362_DemoCode_SP20/TouchesV0" />
+      <module fileurl="file://$PROJECT_DIR$/../TouchesV1/TouchesV1.iml" filepath="$PROJECT_DIR$/../TouchesV1/TouchesV1.iml" group="ITC362_DemoCode_SP20/TouchesV1" />
+      <module fileurl="file://$PROJECT_DIR$/../TouchesV2/TouchesV2.iml" filepath="$PROJECT_DIR$/../TouchesV2/TouchesV2.iml" group="ITC362_DemoCode_SP20/TouchesV2" />
+      <module fileurl="file://$PROJECT_DIR$/../TouchesV3/TouchesV3.iml" filepath="$PROJECT_DIR$/../TouchesV3/TouchesV3.iml" group="ITC362_DemoCode_SP20/TouchesV3" />
+      <module fileurl="file://$PROJECT_DIR$/../UnitConversionCalc/UnitConversionCalc.iml" filepath="$PROJECT_DIR$/../UnitConversionCalc/UnitConversionCalc.iml" group="ITC362_DemoCode_SP20/UnitConversionCalc" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" group="ITC362_DemoCode_SP20/app" />
+    </modules>
+  </component>
+</project>
