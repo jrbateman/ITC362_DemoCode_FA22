@@ -51,6 +51,7 @@
         <TextView
             android:text="@string/label_monthly_payment"
             android:padding="10dip" />
+
         <TextView
             android:id="@+id/payment"
             android:text="@string/monthly_payment" />

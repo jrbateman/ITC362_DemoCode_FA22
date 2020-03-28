@@ -1,8 +1,8 @@
 package com.bateman.candystorev5;
 
 import android.content.Context;
-import android.support.v7.widget.AppCompatButton;
-import android.widget.Button;
+
+import androidx.appcompat.widget.AppCompatButton;
 
 
 public class CandyButton extends AppCompatButton {

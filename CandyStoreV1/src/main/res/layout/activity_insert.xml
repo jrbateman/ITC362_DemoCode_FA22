@@ -55,8 +55,9 @@
   <Button
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
       android:layout_below="@+id/button_add"
-      android:layout_marginTop="51dp"
+      android:layout_marginTop="23dp"
       android:onClick="goBack"
       android:text="@string/button_back" />
 
