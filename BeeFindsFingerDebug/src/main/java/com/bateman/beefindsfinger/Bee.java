@@ -4,7 +4,7 @@ package com.bateman.beefindsfinger;
 public class Bee {
     private int mX;
     private int mY;
-    private bool mVelocity;
+    private int mVelocity;
 
     public void setVelocity(int velocity){
         mVelocity = velocity;

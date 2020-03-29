@@ -1,10 +1,11 @@
 package com.bateman.touchesv3;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.GestureDetector;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity
   implements GestureDetector.OnGestureListener,

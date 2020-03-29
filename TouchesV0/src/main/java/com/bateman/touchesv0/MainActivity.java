@@ -7,7 +7,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity
+public class  MainActivity extends AppCompatActivity
   implements View.OnTouchListener {
   public static final String MA = "MainActivity";
 
