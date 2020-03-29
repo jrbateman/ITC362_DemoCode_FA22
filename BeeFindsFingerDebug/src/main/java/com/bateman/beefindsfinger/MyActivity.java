@@ -82,6 +82,7 @@ public class MyActivity extends AppCompatActivity {
 
         //TASK 1: CREATE A LAYOUT INFLATER TO ADD VISUAL VIEWS TO THE LAYOUT
 
+        LayoutInflater layoutInflater;
         layoutInflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
         //TASK 2: SPECIFY BEE ATTRIBUTES
@@ -152,7 +153,7 @@ public class MyActivity extends AppCompatActivity {
         int touchAction = event.getActionMasked();
 
         //TASK 2:  RESPOND TO  POSSIBLE TOUCH EVENTS
-        switch (touchDown) {
+        switch (touchAction) {
             // BEE RETURNS TO THE FLOWER WHEN THE FINGER IS REMOVED
             case MotionEvent.ACTION_UP:
                 xLocation = mFlower.getX();
