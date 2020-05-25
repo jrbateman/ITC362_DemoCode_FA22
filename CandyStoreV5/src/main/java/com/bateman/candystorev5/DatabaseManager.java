@@ -4,7 +4,6 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-
 import java.util.ArrayList;
 
 public class DatabaseManager extends SQLiteOpenHelper {
@@ -14,7 +13,7 @@ public class DatabaseManager extends SQLiteOpenHelper {
   private static final String ID = "id";
   private static final String NAME = "name";
   private static final String PRICE = "price";
-	
+
   public DatabaseManager( Context context ) {
     super( context, DATABASE_NAME, null, DATABASE_VERSION );
   }
@@ -74,11 +73,15 @@ public class DatabaseManager extends SQLiteOpenHelper {
     Cursor cursor = db.rawQuery( sqlQuery, null );
     
     ArrayList<Candy> candies = new ArrayList<Candy>( );
+
     while( cursor.moveToNext( ) ) {
-      Candy currentCandy
-          = new Candy( Integer.parseInt( cursor.getString( 0 ) ),
+      Candy currentCandy;
+      currentCandy = new Candy( Integer.parseInt( cursor.getString( 0 ) ),
         		        cursor.getString( 1 ), cursor.getDouble( 2 ) );
-      candies.add( currentCandy );
+
+     candies.add(currentCandy);
+
+
     }
     db.close( );
     return candies;
