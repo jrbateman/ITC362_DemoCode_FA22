@@ -3,7 +3,8 @@ package com.bateman.puzzlev0;
 import android.content.res.Resources;
 import android.graphics.Point;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+//import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
 
