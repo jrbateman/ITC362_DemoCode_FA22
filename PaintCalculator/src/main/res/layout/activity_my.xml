@@ -46,8 +46,8 @@
         android:id="@+id/editText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView3"
         android:layout_alignRight="@+id/textView2"
+        android:layout_alignBottom="@+id/textView3"
         android:layout_marginRight="19dp"
         android:ems="5"
         android:inputType="number" />
@@ -69,8 +69,8 @@
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView4"
         android:layout_alignRight="@+id/textView2"
+        android:layout_alignBottom="@+id/textView4"
         android:layout_marginRight="19dp"
         android:ems="5"
         android:inputType="number" />
@@ -92,8 +92,8 @@
         android:id="@+id/editText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView5"
         android:layout_alignRight="@+id/textView2"
+        android:layout_alignBottom="@+id/textView5"
         android:layout_marginRight="19dp"
         android:ems="5"
         android:inputType="number" />

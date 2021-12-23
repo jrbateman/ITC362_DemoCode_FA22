@@ -39,9 +39,9 @@ public class MyActivity extends AppCompatActivity {
     }
 
     private void referenceUIcomponents() {
-        lengthET = findViewById(R.id.editText);
-        widthET = findViewById(R.id.editText);
-        heightET = findViewById(R.id.editText);
+        lengthET = findViewById(R.id.editText1);
+        widthET = findViewById(R.id.editText2);
+        heightET = findViewById(R.id.editText3);
         nDoorsET = findViewById(R.id.editText4);
         nWindowsET = findViewById(R.id.editText5);
         nGallonsV = findViewById(R.id.textView9);
