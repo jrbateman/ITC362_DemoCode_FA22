@@ -1,5 +1,5 @@
-# ITC362 Spring 2022 DemoCode
-ITC 362 Spring 2022 Demo Code
+# ITC362 Fall 2022 DemoCode
+ITC 362 Fall 2022 Demo Code
 
 The code in this repository is for the demonstration/lecture apps used in ITC - Mobile App Development.
 
