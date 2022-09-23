@@ -8,11 +8,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/jbateman/OneDrive - Missouri State University/ITC362 FA22/DemoCode/Democode_FA22/HelloAndroid/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/jbateman/OneDrive - Missouri State University/ITC362 FA22/DemoCode/Democode_FA22/TipCalculatorV0/src/main/res/layout/activity_main.xml" value="0.3066123188405797" />
+        <entry key="..\:/Users/jbateman/OneDrive - Missouri State University/ITC362 FA22/DemoCode/Democode_FA22/TipCalculatorV0/src/main/res/layout/activity_main2.xml" value="0.3066123188405797" />
+        <entry key="..\:/Users/jbateman/OneDrive - Missouri State University/ITC362 FA22/DemoCode/Democode_FA22/TipCalculatorV1/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/jbateman/OneDrive - Missouri State University/ITC362 FA22/DemoCode/Democode_FA22/TipCalculatorV2/src/main/res/layout/activity_main.xml" value="0.3066123188405797" />
+        <entry key="..\:/Users/jbateman/OneDrive - Missouri State University/ITC362 FA22/DemoCode/Democode_FA22/TipCalculatorV3/src/main/res/layout/activity_main.xml" value="0.19427083333333334" />
+        <entry key="..\:/Users/jbateman/OneDrive - Missouri State University/ITC362 FA22/DemoCode/Democode_FA22/TipCalculatorV4/src/main/res/layout/activity_main.xml" value="0.37552083333333336" />
         <entry key="..\:/Users/jbateman/OneDrive - Missouri State University/ITC362 SP22/DemoCode/DemoCode/PaintCalculator/src/main/res/layout/activity_my.xml" value="0.37552083333333336" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

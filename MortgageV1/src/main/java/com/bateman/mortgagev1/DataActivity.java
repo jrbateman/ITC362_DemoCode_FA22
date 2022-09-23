@@ -1,8 +1,9 @@
 package com.bateman.mortgagev1;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+//import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class DataActivity extends AppCompatActivity {
 
