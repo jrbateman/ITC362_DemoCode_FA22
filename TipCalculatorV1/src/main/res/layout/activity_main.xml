@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/constraintLayout"
@@ -11,15 +11,13 @@
       android:id="@+id/label_bill"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginLeft="20dp"
-      android:layout_marginTop="20dp"
       android:background="@color/lightGray"
       android:minWidth="120dp"
       android:padding="10dp"
       android:text="@string/label_bill"
       android:textSize="28sp"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      tools:layout_editor_absoluteX="27dp"
+      tools:layout_editor_absoluteY="113dp" />
 
   <EditText
       android:id="@+id/amount_bill"
@@ -33,6 +31,7 @@
       android:textColor="@color/darkBlue"
       android:textSize="28sp"
       app:layout_constraintBottom_toBottomOf="@+id/label_bill"
+      app:layout_constraintHorizontal_bias="0.317"
       app:layout_constraintLeft_toRightOf="@+id/label_bill"
       app:layout_constraintRight_toRightOf="parent" />
 
@@ -49,6 +48,17 @@
       app:layout_constraintRight_toRightOf="@+id/label_bill"
       app:layout_constraintTop_toBottomOf="@+id/label_bill" />
 
+
+  <View
+      android:id="@+id/view"
+      android:layout_width="match_parent"
+      android:layout_height="5dp"
+      android:background="@color/red"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
   <EditText
       android:id="@+id/amount_tip_percent"
       android:layout_width="wrap_content"
@@ -60,38 +70,27 @@
       android:textColor="@color/darkBlue"
       android:textSize="28sp"
       app:layout_constraintBottom_toBottomOf="@+id/label_tip_percent"
+      app:layout_constraintHorizontal_bias="1.0"
       app:layout_constraintLeft_toRightOf="@+id/label_tip_percent"
       app:layout_constraintRight_toRightOf="@id/amount_bill" />
-
-  <!-- red line -->
-  <View
-      android:id="@+id/red_line"
-      android:layout_width="match_parent"
-      android:layout_height="5dip"
-      android:layout_marginTop="20dp"
-      android:background="#FF00"
-      app:layout_constraintLeft_toLeftOf="@id/label_bill"
-      app:layout_constraintRight_toRightOf="@id/amount_bill"
-      app:layout_constraintTop_toBottomOf="@+id/label_tip_percent" />
 
   <TextView
       android:id="@+id/label_tip"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginTop="20dp"
-      android:background="@color/lightGray"
+      android:layout_marginTop="64dp"
       android:padding="10dp"
       android:text="@string/label_tip"
       android:textSize="28sp"
+      app:layout_constraintHorizontal_bias="1.0"
       app:layout_constraintLeft_toLeftOf="@+id/label_bill"
       app:layout_constraintRight_toRightOf="@+id/label_bill"
-      app:layout_constraintTop_toBottomOf="@id/red_line" />
+      app:layout_constraintTop_toTopOf="@+id/view" />
 
   <TextView
       android:id="@+id/amount_tip"
-      android:layout_width="12dp"
-      android:layout_height="wrap_content"
-      android:background="@color/lightGreen"
+      android:layout_width="170dp"
+      android:layout_height="58dp"
       android:gravity="center"
       android:padding="10dp"
       android:textSize="28sp"
@@ -103,33 +102,28 @@
       android:id="@+id/label_total"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginTop="20dp"
-      android:background="@color/lightGray"
+      android:layout_marginTop="44dp"
       android:padding="10dp"
       android:text="@string/label_total"
       android:textSize="28sp"
-      app:layout_constraintLeft_toLeftOf="@+id/label_bill"
-      app:layout_constraintRight_toRightOf="@+id/label_bill"
-      app:layout_constraintTop_toBottomOf="@id/label_tip" />
+      app:layout_constraintTop_toBottomOf="@+id/label_tip"
+      tools:layout_editor_absoluteX="45dp" />
 
   <TextView
       android:id="@+id/amount_total"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:background="@color/lightGreen"
+      android:layout_width="179dp"
+      android:layout_height="54dp"
       android:gravity="center"
       android:padding="10dp"
       android:textSize="28sp"
-      app:layout_constraintBottom_toBottomOf="@+id/label_total"
-      app:layout_constraintLeft_toRightOf="@+id/label_total"
-      app:layout_constraintRight_toRightOf="@id/amount_bill" />
+      tools:layout_editor_absoluteX="147dp"
+      tools:layout_editor_absoluteY="534dp" />
 
   <Button
       android:id="@+id/button"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginTop="20dp"
-      android:background="@color/darkGreen"
+      android:layout_marginTop="600dp"
       android:padding="10dp"
       android:text="@string/button_calculate"
       android:textSize="28sp"
@@ -137,4 +131,4 @@
       app:layout_constraintRight_toRightOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/amount_total" />
 
-</androidx.constraintlayout.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
